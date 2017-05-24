@@ -1,9 +1,9 @@
-chat:
+yourappnamehere:
   build: .
   command: node_modules/.bin/nodemon index.js
   volumes:
-    - .:/home/app/chat
-    - /home/app/chat/node_modules
+    - .:/home/app/yourappnamehere
+    - /home/app/yourappnamehere/node_modules
   ports:
     - '3000:3000'
 

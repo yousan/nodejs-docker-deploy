@@ -1,0 +1,6 @@
+chat:
+  build: .
+  environment:
+    NODE_ENV: production
+    
+

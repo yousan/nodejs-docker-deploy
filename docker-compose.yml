@@ -1,0 +1,9 @@
+chat:
+  build: .
+  command: node_modules/.bin/nodemon index.js
+  volumes:
+    - .:/home/app/chat
+    - /home/app/chat/node_modules
+  ports:
+    - '3000:3000'
+
